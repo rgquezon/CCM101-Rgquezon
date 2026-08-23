@@ -1,7 +1,7 @@
 # About Me
 
-Hello! I am Ramel Gino Quezon, an Information Technology student with a strong focus on full-stack web development and IoT solutions. 
+Hello! I am Ramel Gino Quezon, an Information Technology student currently diving into the world of Cloud Computing. 
 
-My technical background includes designing database-driven web applications using the Laravel framework, developing mobile utilities with Kotlin, and engineering hardware-integrated projects such as smart environmental monitoring systems. 
+Throughout my academic journey, I have enjoyed building hands-on projects, ranging from full-stack web applications using Laravel to hardware-integrated IoT solutions like a smart drainage monitoring system. 
 
-As I expand my expertise into cloud computing, this repository serves as a professional portfolio of my hands-on experience with Linux environments, version control, and cloud infrastructure. I am passionate about building efficient, modern systems and continuously learning new technologies to solve real-world problems.
+Right now, my main focus is on expanding my skill set into cloud infrastructure. This repository serves as a record of my laboratory activities and my progress in learning how to navigate cloud-based Linux environments, manage version control with Git, and understand the core concepts of cloud technologies. I am excited to continue learning and building a strong technical foundation!
