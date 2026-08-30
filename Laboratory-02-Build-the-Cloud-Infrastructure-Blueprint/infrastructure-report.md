@@ -1,16 +1,16 @@
 # Cloud Infrastructure Assessment Report
 
 ## 1. Compute Resources
-* **Operating System:** (e.g., Ubuntu 24.04 LTS)
-* **Kernel Version:** (Look at the output of uname -r)
-* **CPU Model:** (Look for 'Model name' in the lscpu output)
-* **Number of CPU Cores:** (Look for 'CPU(s)' in the lscpu output)
-* **Total RAM:** (Look at the 'total' column under Mem from free -h)
+* **Operating System:** Ubuntu 24.04.4 LTS
+* **Kernel Version:** 6.8.0-138-generic
+* **CPU Model:** Intel Xeon E312xx (Sandy Bridge, IBRS update)
+* **Number of CPU Cores:** 1
+* **Total RAM:** 1.9 GiB
 
 ## 2. Storage Resources
-* **Disk Capacity:** (Look at the 'Size' of /dev/vda1 or your main drive from df -h)
-* **Mounted File Systems:** (List a couple of the main ones, like / and /boot)
+* **Disk Capacity:** 19 GiB (`/dev/vda1`)
+* **Mounted File Systems:** `/`, `/boot`, `/boot/efi`
 
 ## 3. Networking Resources
-* **Hostname:** (Look at the output of hostname)
-* **IP Address:** (Look at the output of hostname -I)
+* **Hostname:** ubuntu
+* **IP Address:** 172.30.1.2, 172.17.0.1
