@@ -1,21 +1,21 @@
 # Cloud Infrastructure Components
 
 ## 1. Compute Resources
-* **Purpose:** Compute resources provide the processing power and memory required to execute applications, run calculations, and process data.
-* **Importance in Cloud Computing:** They allow organizations to rent processing power on-demand and scale up or down based on traffic, eliminating the need to buy and maintain expensive physical servers.
-* **Relation to KillerCoda:** In the KillerCoda Linux environment, the compute resources are represented by the CPU and RAM. I interacted with these by running the `lscpu` command to find the CPU model (Intel Xeon) and the `free -h` command to check the allocated memory.
+* **Purpose:** Handles active processing and memory, executing everything from backend system tasks to user applications.
+* **Importance in Cloud Computing:** Eliminates the need to maintain physical server hardware. Organizations can provision processing power on demand and scale vCPUs up or down based on real-time traffic spikes.
+* **Relation to KillerCoda:** In my terminal session, compute is represented by the virtual CPU and host memory allocation. Running `lscpu` showed an Intel Xeon processor running at 2.0GHz, while `free -h` revealed 1.9GiB of total usable RAM.
 
 ## 2. Storage Resources
-* **Purpose:** Storage resources are used to hold, organize, and maintain data, files, and operating system configurations persistently.
-* **Importance in Cloud Computing:** Cloud storage provides a highly scalable, secure, and accessible way to keep data safe without relying on local hard drives that can fail or run out of space.
-* **Relation to KillerCoda:** The storage in KillerCoda is represented by the virtual disk drives. I viewed these resources by running the `df -h` command, which showed the capacity and usage of the mounted file system (e.g., `/dev/vda1`).
+* **Purpose:** Retains persistent data, application files, and system configs so information isn't lost when instances reboot.
+* **Importance in Cloud Computing:** Replaces local hard drives with resilient, scalable virtual disks. This guarantees high data availability, automated snapshots, and hardware failure protection.
+* **Relation to KillerCoda:** Storage is represented by virtual block devices attached to the container. Running `df -h` mapped out the active file systems, showing a main 19GiB drive partition (`/dev/vda1`) with 5.4GiB currently in use.
 
 ## 3. Networking Resources
-* **Purpose:** Networking resources connect servers, storage, and external users, allowing data to be transmitted back and forth across the internet or private networks.
-* **Importance in Cloud Computing:** Without networking, cloud resources would be isolated. Networking ensures users can access applications hosted in the cloud quickly and securely from anywhere in the world.
-* **Relation to KillerCoda:** The KillerCoda environment is connected to a network that allows me to access the terminal through my web browser. I identified this connection by running the `hostname -I` command, which revealed the server's assigned IP address.
+* **Purpose:** Connects servers, database backends, and end-users, enabling seamless data flow across private networks and the internet.
+* **Importance in Cloud Computing:** Acts as the backbone of cloud architecture. Without proper routing and virtual networks, cloud instances would remain completely isolated and unable to serve web traffic.
+* **Relation to KillerCoda:** The sandbox uses a virtual network bridge to route my web browser's terminal input directly to the cloud server. Executing `hostname -I` revealed its assigned internal IP addresses (`172.30.1.2` and `172.17.0.1`).
 
 ## 4. Operating System
-* **Purpose:** The operating system (OS) is the foundational software that manages the hardware resources and provides a platform for running applications and executing commands.
-* **Importance in Cloud Computing:** Cloud providers use operating systems (often lightweight Linux distributions) to run virtual machines efficiently, providing a stable and secure environment for users to deploy their software.
-* **Relation to KillerCoda:** The operating system running the KillerCoda environment is Ubuntu. I verified this by running `cat /etc/os-release`, which confirmed it is running Ubuntu 24.04 LTS.
+* **Purpose:** Bridges the physical or virtual hardware with developer applications, managing memory allocation, file systems, and user privileges.
+* **Importance in Cloud Computing:** Lightweight Linux distributions serve as the default standard across public clouds due to their low resource overhead, robust CLI automation, and built-in security features.
+* **Relation to KillerCoda:** My instance runs a headless Linux distribution. Running `cat /etc/os-release` confirmed Ubuntu 24.04.4 LTS (Noble Numbat), running on kernel version `6.8.0-138-generic`.
