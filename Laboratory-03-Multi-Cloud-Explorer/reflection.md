@@ -1,0 +1,11 @@
+Through this laboratory activity, exploring Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP) provided valuable insights into modern cloud architecture and cloud solution design.
+
+Among the three major providers, Google Cloud Platform (GCP) impressed me the most due to its clean, developer-centric interface and project-based resource management. GCP’s specialization in data analytics, machine learning via Vertex AI, and native Kubernetes support through Google Kubernetes Engine (GKE) demonstrates a clear technological edge for modern, containerized applications.
+
+Despite their differences, significant fundamental similarities exist across all three public cloud leaders. Each platform provides core Infrastructure as a Service (IaaS) components—virtual compute instances, object storage, virtual private networking, and identity/access management (IAM). Furthermore, all three operate on a flexible, pay-as-you-go pricing model with multi-region global infrastructure designed for high availability and redundancy.
+
+Business requirements play a decisive role in guiding cloud platform selection. A cloud engineer cannot simply pick the most popular provider; technical choices must align with organizational budgets, existing technical stacks, and performance needs. For instance, an enterprise with a deep legacy in Windows Server and Active Directory achieves maximum value migrating to Azure, while an AI research startup requiring heavy machine learning pipelines benefits far more from GCP.
+
+Acting as a Cloud Solutions Consultant taught me how to evaluate business scenarios critically rather than relying on standard solutions. Mapping specific requirements—such as auto-scaling for e-commerce or compliance for higher education—to technical cloud services highlighted the strategic responsibilities of a solutions architect.
+
+Finally, completing this mission has significantly elevated my GitHub Cloud Computing Portfolio. Adding structured research, side-by-side service matrices, client decision frameworks, and terminal server analysis transforms my repository into a professional demonstration of hands-on cloud competencies and technical documentation skills.
