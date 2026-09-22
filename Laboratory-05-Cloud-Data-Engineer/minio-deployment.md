@@ -1,9 +1,6 @@
 # MinIO Object Storage Deployment Documentation
 
 ## Deployment Configuration
-# MinIO Object Storage Deployment Documentation
-
-## Deployment Configuration
 
 ### Deployment Command
 ```bash
