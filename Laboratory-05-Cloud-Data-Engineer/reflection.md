@@ -8,4 +8,4 @@ In cloud storage, a "bucket" is a top-level logical container used to organize a
 
 Large enterprise companies protect their object storage data against physical server crashes by implementing distributed erasure coding, multi-region synchronous replication, and automated failover clusters. By splitting data into parity blocks distributed across separate hardware racks and availability zones, full data recovery remains guaranteed even if multiple physical drives fail simultaneously.
 
-My confidence in navigating the Linux command line and managing cloud environments is growing significantly with each mission[cite: 2]. Managing port mappings, environment variables, object storage configurations, and Git version control workflows directly in the terminal is becoming natural and intuitive[cite: 2].
+My confidence in navigating the Linux command line and managing cloud environments is growing significantly with each mission. Managing port mappings, environment variables, object storage configurations, and Git version control workflows directly in the terminal is becoming natural and intuitive.
