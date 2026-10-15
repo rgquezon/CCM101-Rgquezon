@@ -3,15 +3,15 @@
 ## Executed Commands
 
 ### 1. Allow SSH Access
-```
-sudo ufw allow ssh
+* `sudo ufw allow ssh`
+  
+### 2. Configure Default Deny Policy
 
-sudo ufw default deny incoming
+* `sudo ufw default deny incoming`
+* `sudo ufw default allow outgoing`
 
-sudo ufw default allow outgoing
-
-sudo ufw allow 8080/tcp
-```
+### 3. Allow Web Traffic (Port 8080)
+* `sudo ufw allow 8080/tcp`
 
 ## Critical Security Assessment
 
