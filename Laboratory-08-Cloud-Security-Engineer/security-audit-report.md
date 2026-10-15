@@ -1,6 +1,6 @@
 # Security Audit Report
 
-## Core Security Concepts (Checkpoint 2)
+## Core Security Concepts 
 
 ### 1. The Principle of Least Privilege (PoLP)
 The Principle of Least Privilege dictates that users, processes, and systems should only be granted the minimum level of access and permissions required to perform their specific tasks. This is vital for cloud user accounts because it restricts the blast radius if an account is compromised, preventing attackers from gaining broader administrative control over the entire infrastructure.
